@@ -5,6 +5,7 @@
 
 body {
     background-color: #d1ad7f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -61,4 +62,11 @@ li {
 
 hr {
     margin-top: 20px;
+    color: #2222221e;
 }
+ span {
+    color: #7a3838;
+    font-weight: bold;
+    float: right;
+    margin-right: 40%;
+ }

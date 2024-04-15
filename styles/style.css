@@ -3,21 +3,26 @@
     padding: 0;
 }
 
+:root {
+    --font-title: 30px;
+}
+
 body {
-    background-color: #d1ad7f;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #272727;
+    background-color: #f3e5d8;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
     background-color: aliceblue;
-    max-width: 60%;
-    margin: 10% auto 10% auto;
+    max-width: 800px;
+    margin: 50px auto;
     border-radius: 10px;
 }
 
 .contein {
     max-width: 100%;
-    padding: 5%;
+    padding: 40px;
     border-radius: 10px;
 }
 
@@ -27,13 +32,19 @@ img {
 }
 
 h2 {
-    font-size: 2rem;
     margin: 15px 0;
+    font-size: var(--font-title);
 }
 
 p{
     margin-top: 10px;
     margin-bottom: 20px;    
+}
+
+h3 {
+    color: #813434;
+    margin: 15px 0;
+    font-size: 1.5rem;
 }
 
 li {
@@ -42,29 +53,31 @@ li {
     padding-left: 10px;
 }
 
-.third-title {
+li::marker {
     color: #813434;
-    margin: 15px 0;
-    font-size: 1.5rem;
 }
 
 .preparation {
-    background-color: #c9bcbc;
+    background-color: #e6dada;
     padding: 20px;
     border-radius: 10px;
 }
 
 .preparation h3 {
-    color: #b13b3b;
+    color: #74223a;
     margin-bottom: 10px;
     font-size: 1.1rem
 }
 
+.preparation li::marker {
+    color: #74223a;
+}
+
 hr {
     margin-top: 20px;
-    color: #2222221e;
+    border-color: #2222221e;
 }
- span {
+span {
     color: #7a3838;
     font-weight: bold;
     float: right;
